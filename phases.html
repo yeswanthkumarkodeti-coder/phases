@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Process Flow Diagram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+      background: #f0f0f0;
+    }
+    .flow-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .step {
+      width: 150px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+      border-radius: 50px;
+      text-transform: capitalize;
+      font-size: 1.2rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      margin: auto;
+    }
+    .plan { background: #ff3b3b; }
+    .develop { background: #5c755e; }
+    .build { background: #007bff; }
+    .test { background: #e5007d; }
+    .release { background: #a35a35; }
+    .deploy { background: #ffb600; }
+    .operate { background: #fff2b2; color: #333; }
+    .monitor { background: #d9d9d9; color: #333; }
+  </style>
+</head>
+<body>
+  <div class="flow-container">
+    <div class="step plan">Plan</div>
+    <div class="step develop">Develop</div>
+    <div class="step build">Build</div>
+    <div class="step test">Test</div>
+    <div class="step release">Release</div>
+    <div class="step deploy">Deploy</div>
+    <div class="step operate">Operate</div>
+    <div class="step monitor">Monitor</div>
+  </div>
+</body>
+</html>
